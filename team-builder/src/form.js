@@ -19,7 +19,7 @@ const Form = props => {
   };
 
   return (
-    <form onSubmit={submitHandler}>
+    <form className="formAdd" onSubmit={submitHandler}>
       <label>
         Name:
         <input name="name" value={person.name} onChange={changeHandler} />
@@ -29,8 +29,7 @@ const Form = props => {
         <input name="email" value={person.email} onChange={changeHandler} />
       </label>
       <label>
-        Role:
-        <input name="role" value={person.role} onChange={changeHandler} />
+        Role: <input name="role" value={person.role} onChange={changeHandler} />
       </label>
       <button type="submit">Add</button>
     </form>
