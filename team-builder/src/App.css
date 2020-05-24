@@ -1,0 +1,52 @@
+.App {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px #fff;
+}
+.formApp {
+  display: flex;
+  width: 100%;
+  height: 2rem;
+  justify-content: space-evenly;
+}
+
+.flexStart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+}
+.memberCard {
+  flex-direction: row;
+  width: 25rem;
+  padding: 2%;
+  background-image: url("../src/callingcard.png");
+  justify-content: space-evenly;
+  box-shadow: 10px 20px;
+  background-color: rgb(206, 198, 214);
+  margin-bottom: 3%;
+}
+
+.name {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bottomSection {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+}
